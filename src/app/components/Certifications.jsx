@@ -37,7 +37,7 @@ const Certifications = () => {
                     <FaUniversity />
                 </button>
             </h2>
-            <div className="grid md:grid-cols-3 gap-8 md:gap-12 mt-4">
+            <div className="grid md:grid-cols-3 gap-8 md:gap-12 mt-4 w-auto">
                 {projectsData.map((project) => (
                     <ProjectCard 
                     key={project.id} 

@@ -5,16 +5,9 @@ import { TypeAnimation } from 'react-type-animation';
 import { BsGithub } from 'react-icons/bs';
 import { DiJsBadge, DiReact } from 'react-icons/di';
 
-
-
-
-
-
-
 const HeroSection = () => {
     const [isHovered, setIsHovered] = useState(false);
     const audioRef = useRef();
-
 
     const handleHover = () => {
         setIsHovered(true);
@@ -29,6 +22,7 @@ const HeroSection = () => {
 
     return (
         /*className='rounded-tl-[8px] rounded-tr-[100px] mt-2 bg-gradient-to-r from-black to-cyan-900 px-8 py-4'*/
+        <div className='border border-white p-2 bg-gradient-to-r from-black to-gray-900'>
         <section className='border border-white rounded-xl p-4 '>
             <div className='grid grid-cols-1 sm:grid-cols-12'>
                 <div className='col-span-7 place-self-center text-center sm:text-left'>
@@ -71,13 +65,13 @@ const HeroSection = () => {
                     </div>
                     <div className="mt-8 justify-center items-center">
                             <button className="text-2xl ml-4"> {/* Clase de Tailwind para tamaño de texto extra grande */}
-                                <BsGithub className="w-6 h-6" /> {/* Clases de Tailwind para ancho y alto */}
+                                <BsGithub className="w-6 h-6 text-white" /> {/* Clases de Tailwind para ancho y alto */}
                             </button>
                             <button className="text-2xl ml-4"> {/* Clase de Tailwind para tamaño de texto extra grande */}
-                                <DiJsBadge className="w-6 h-6" /> {/* Clases de Tailwind para ancho y alto */}
+                                <DiJsBadge className="w-6 h-6 text-white" /> {/* Clases de Tailwind para ancho y alto */}
                             </button>
                             <button className="text-2xl ml-4 "> {/* Clase de Tailwind para tamaño de texto extra grande */}
-                                <DiReact className="w-6 h-6" /> {/* Clases de Tailwind para ancho y alto */}
+                                <DiReact className="w-7 h-7 text-white" /> {/* Clases de Tailwind para ancho y alto */}
                             </button>
                     </div>
                 </div>
@@ -99,6 +93,7 @@ const HeroSection = () => {
                 </div>
             </div>
         </section>
+        </div>
     )
 }
 
