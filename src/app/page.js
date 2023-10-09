@@ -18,7 +18,9 @@ export default function Home() {
         <AboutSection/>
         <hr className='w-full color-white' />
         <ProjectsSection />
+        <hr className='w-full color-gray-600 mt-4'/>
         <Certifications />
+        <hr className='w-full color-slate-600 mt-8' />
         <InConstruction />
       </div>
     </main>

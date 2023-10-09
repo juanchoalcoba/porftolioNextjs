@@ -12,7 +12,7 @@ const projectsData = [
     },
     {
         id: 2,
-        title: "Javascript Intermediate | HackerRank",
+        title: "Javascript Intermediate",
         description: "HackerRank Certifications",
         image: "/images/certifications/javascriptIntermediate.png",
         tag: ["All", "Web"]

@@ -9,7 +9,7 @@ const InConstruction = () => {
         height={600} 
         alt="Sitio en construccion"
         />
-        <h1 className='text-slate-400 text-4xl mt-4'>Disculpe las molestias</h1>
+        <h1 className='text-slate-400 text-xl md:text-4xl mt-4'>Disculpe las molestias</h1>
     </div>
   )
 }
