@@ -1,5 +1,5 @@
 import React from 'react'
-import ProjectCard from './ProjectCard'
+import ProjectCardCerts from './ProjectCardCerts'
 import { FaUniversity } from 'react-icons/fa'
 
 const projectsData = [
@@ -39,7 +39,7 @@ const Certifications = () => {
             </h2>
             <div className="grid md:grid-cols-3 gap-8 md:gap-12 mt-4 w-auto">
                 {projectsData.map((project) => (
-                    <ProjectCard 
+                    <ProjectCardCerts 
                     key={project.id} 
                     title={project.title} 
                     description={project.description} 
