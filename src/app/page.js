@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import AboutSection from './components/AboutSection'
 import ProjectsSection from './components/ProjectsSection'
 import Certifications from './components/Certifications'
+import InConstruction from './components/InConstruction'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <hr className='w-full color-white' />
         <ProjectsSection />
         <Certifications />
+        <InConstruction />
       </div>
     </main>
   )
