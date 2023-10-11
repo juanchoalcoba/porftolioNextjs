@@ -1,0 +1,29 @@
+{
+    "navbar.about": "Sobre",
+    "navbar.projects": "Projetos",
+    "navbar.contact": "Contato",
+    "hero.greeting": "Olá, eu sou",
+    "hero.name": "Juan Ignacio",
+    "hero.description": "Sou apaixonado por tecnologia e web. Gosto de criar designs exclusivos e surpreendentes.",
+    "hero.hireMe": "Contrate-me",
+    "hero.downloadCV": "Baixar CV",
+    "about.skills": "Habilidades",
+    "about.education": "Educação",
+    "about.certifications": "Certificações",
+    "about.skillsList": [
+      "Javascript",
+      "React.js",
+      "Next.js",
+      "Tailwind",
+      "HTML",
+      "CSS"
+    ],
+    "about.educationList": [
+      "Fullstack Academy of Code",
+      "Bacharel em LTI"
+    ],
+    "about.certificationsList": [
+      "Javascript Intermediate Hackerrank",
+      "Google Professional Cloud Developer"
+    ]
+  }

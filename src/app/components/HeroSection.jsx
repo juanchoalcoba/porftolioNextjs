@@ -5,6 +5,8 @@ import { TypeAnimation } from 'react-type-animation';
 import { BsGithub } from 'react-icons/bs';
 import { DiJsBadge, DiReact } from 'react-icons/di';
 import Link from 'next/link';
+
+
 const HeroSection = () => {
     const [isHovered, setIsHovered] = useState(false);
     const audioRef = useRef();

@@ -5,6 +5,7 @@ import NavLink from './NavLink';
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from './MenuOverlay';
 
+
 const navLinks = [
     {
         title: "About",
@@ -25,7 +26,7 @@ const Navbar = () => {
 
     return (
         <nav className='fixed top-0 left-0 right-0 z-10 bg-[#000] bg-opacity-70'>
-            <div className='flex flex-wrap items-center justify-between mx-auto px-4 py-2'>
+            <div className='flex flex-wrap items-center justify-between -x-auto px-4 py-2'>
                 <Link href={'/'} className='text-2xl md:text-4xl text-slate-300 font-semibold'>
                     J.dev
                 </Link>
