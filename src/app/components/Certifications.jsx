@@ -34,10 +34,10 @@ const Certifications = () => {
         <>
             <h2 className='text-center text-4xl font-bold  text-white mt-8'>
                 <button>
-                    <FaUniversity />
+                    <FaUniversity />Certifications
                 </button>
             </h2>
-            <div className="grid md:grid-cols-3 gap-8 md:gap-12 mt-4 w-auto">
+            <div className="grid md:grid-cols-3 gap-8 md:gap-12 mt-4">
                 {projectsData.map((project) => (
                     <ProjectCard 
                     key={project.id} 
