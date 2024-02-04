@@ -2,15 +2,14 @@
 import HeroSection from './components/HeroSection'
 import Navbar from './components/Navbar'
 
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col bg-[#121212]">
+    <main className="flex min-h-screen flex-col">
       <Navbar />
-      <hr  className='w-full mt-14'/>
 
-      <div className="container mt-14 mx-auto px-12 py-4 ">
+      <div className="container mt-16 mx-auto px-12 py-4 ">
         <HeroSection/>
-
       </div>
     </main>
   )
