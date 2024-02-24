@@ -21,8 +21,10 @@ const navLinks = [
 const Navbar = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
 
+    
+
     return (
-        <nav className='fixed top-0 left-0 right-0 z-10 bg-[#000] bg-opacity-70'>
+        <nav className='fixed top-0 left-0 right-4 z-10 bg-[#000] bg-opacity-70'>
             <div className='flex flex-wrap items-center justify-between -x-auto px-4 py-2'>
                 <Link href={'/'} className='text-2xl md:text-4xl text-slate-300 font-semibold'>
                     J.dev
@@ -42,7 +44,7 @@ const Navbar = () => {
                     <ul className='flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0'>
                         {navLinks.map((link, index) => (
                             <li key={index}>
-                                <Link href={link.path}  className="text-slate-200 hover:text-white">{link.title}</Link>
+                                <Link href={link.path}  className="text-slate-200 text-xl hover:text-white">{link.title}</Link>
                             </li>
                         ))}
                     </ul>
